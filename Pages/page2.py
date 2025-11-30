@@ -3,13 +3,14 @@ import plotly.express as px
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.title("data visualization")
+st.title("Data Visualization")
 
 # Generate same data
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
-# Plot data
+# Plot da
 fig, ax = plt.subplots()
-ax.plot(x,y)
-# Display the plot
+ax.plot(x, y)
+# Display the plt
 st.pyplot(fig)
+
